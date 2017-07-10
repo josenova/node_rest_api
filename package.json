@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node server.js",
     "test": "mocha --timeout 15000"
   },
   "dependencies": {
@@ -18,5 +18,8 @@
     "mongoose": "^4.8.1",
     "morgan": "~1.7.0",
     "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": "6.10.2"
   }
 }
