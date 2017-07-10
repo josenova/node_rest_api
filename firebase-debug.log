@@ -1,0 +1,36 @@
+[debug] [2017-06-26T13:41:52.944Z] ----------------------------------------------------------------------
+[debug] [2017-06-26T13:41:52.947Z] Command:      /Users/josenova/.nvm/versions/node/v6.10.2/bin/node /Users/josenova/.nvm/versions/node/v6.10.2/bin/firebase serve
+[debug] [2017-06-26T13:41:52.948Z] CLI Version:  3.9.1
+[debug] [2017-06-26T13:41:52.948Z] Platform:     darwin
+[debug] [2017-06-26T13:41:52.948Z] Node Version: v6.10.2
+[debug] [2017-06-26T13:41:52.949Z] Time:         Mon Jun 26 2017 15:41:52 GMT+0200 (CEST)
+[debug] [2017-06-26T13:41:52.949Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-26T13:41:52.965Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-26T13:41:52.965Z] > authorizing via signed-in user
+[debug] [2017-06-26T13:41:52.968Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-26T13:41:52.968Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/1wIEEUsRS5viqUFuHVBIhIeOGV9lNctR7Kg3Lqb-oJF9mgLdgNa-ePzHw6sVpjXw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 26 2017 15:41:52 GMT+0200 (CEST)
+[debug] [2017-06-26T13:41:53.140Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T13:41:53.148Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/strv-e7543  
+ Mon Jun 26 2017 15:41:53 GMT+0200 (CEST)
+[debug] [2017-06-26T13:41:54.164Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T13:41:54.165Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/strv-e7543/tokens  
+ Mon Jun 26 2017 15:41:54 GMT+0200 (CEST)
+[debug] [2017-06-26T13:41:55.517Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/josenova/www/STRV'...
+[info] 
+[debug] [2017-06-26T13:41:55.520Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/strv-e7543  
+ Mon Jun 26 2017 15:41:55 GMT+0200 (CEST)
+[debug] [2017-06-26T13:41:56.459Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T13:41:56.460Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/714525978853/clients/_:getWebAppConfig  
+ Mon Jun 26 2017 15:41:56 GMT+0200 (CEST)
+[debug] [2017-06-26T13:41:56.982Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T13:41:57.017Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
